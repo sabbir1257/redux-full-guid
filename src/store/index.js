@@ -1,14 +1,7 @@
-import { combineReducers, createStore } from "redux";
+import { createStore } from 'redux';
+import rootReducer from './reducers';
 
-const cardReducer = (state = {}, action) => {
-    return state;
-}
-
-const rootReducer = combineReducers({
-    cart: cardReducer
-})
-
-const store = createStore(rootReducer)
+const store = createStore(rootReducer);
 
 
 export default store;

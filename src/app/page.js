@@ -5,7 +5,7 @@ import store from '@/store';
 
 export default function Page() {
   return (
-    <Provider store={store}>
+    <Provider store={store}>  
       <RootComponent />
     </Provider>
   );
